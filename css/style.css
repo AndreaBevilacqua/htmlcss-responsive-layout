@@ -9,12 +9,30 @@
 /* Generics */
 
 body {
-    font-family: sans-serif;
+    font-family: Montserrat, sans-serif;
+    background-color: #F6F5F3;
+}
+
+h1 {
+    color: #FF9614;
+    text-shadow: 1px 1px 2px grey;
+    font-family: 'Nerko One', cursive;
+    font-size: 3.5rem;
+
 }
 
 /* Utils */
 
 .container {
-    max-width: 1200px;
     margin: 0 auto;
 }
+
+/* Navbar */
+
+.navbar {
+    height: 80px;
+    background-color: white;
+    text-align: center;
+    line-height: 80px;
+}
+
