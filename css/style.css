@@ -246,6 +246,7 @@ address {
 .nav-footer ul {
     list-style-type: none;
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
     gap: 19px;
     text-decoration: underline;
