@@ -47,7 +47,7 @@ img {
 
 .container {
     margin: 0 auto;
-    max-width: 1080px;
+    max-width: 1400px;
 }
 
 .clearfix::after {
@@ -110,11 +110,11 @@ img {
     border-radius: 20px;
     font-weight: bold;
     margin: 0px 20px;
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 
 .recipe-rating {
-    font-size: 1.3rem;
+    font-size: 1rem;
     display: flex;
     align-items: center;
     padding-top: 20px; 
@@ -157,7 +157,7 @@ img {
 
 .recipe-info ul {
     list-style-type: none;
-    line-height: 2.3;
+    line-height: 2;
 }
 
 .kcal {
