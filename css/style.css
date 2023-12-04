@@ -47,7 +47,13 @@ img {
 
 .container {
     margin: 0 auto;
-    max-width: 576px;
+    max-width: 1080px;
+}
+
+.clearfix::after {
+    display: table;
+    content: '';
+    clear: both;
 }
 
 .flex {
@@ -112,6 +118,10 @@ img {
     display: flex;
     align-items: center;
     padding-top: 20px; 
+}
+
+.recipe-origin {
+    display: none;
 }
 
 /* Reciper Card */
@@ -190,6 +200,17 @@ img {
     cursor: pointer;
 }
 
+.label {
+    display: none;
+}
+
+/* ads */
+
+.ads {
+    display: none;
+    margin: 30px auto;
+}
+
 /* Presentation */
 
 h3 {
@@ -208,19 +229,22 @@ hr {
     margin-bottom: 20px;
 }
 
-.tiramisu img {
-    width: 70%; 
+.description {
+    text-align: left;
+    margin-bottom: 20px;
 }
 
-.tiramisu {
-    text-align: center;
-    text-shadow: 0 5px 10px grey;
-    margin-bottom: 20px;
+.description img {
+    max-width: 300px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    box-shadow: 0 5px 10px 0.5;
 }
 
 p {
     line-height: 2;
-    text-align: left;
+    margin-top: 20px;
     margin-bottom: 20px;
 }
 
